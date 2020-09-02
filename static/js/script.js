@@ -13,3 +13,16 @@ function ageinDays(){
 function reset(){
     document.getElementById('result').remove();
 }
+
+// Challenge 2 : Cat Generator
+function GenerateCat(){
+    var image = document.createElement("img");
+    var div = document.getElementById('flex-cat-gen');
+    image.src = "https://cdn2.thecatapi.com/images/4kc.gif"
+    div.appendChild(image);
+}
+
+// Challenge 3 : Rock Paper Scissors
+function rpsGame(yourChoice){
+    console.log(yourChoice);
+}
